@@ -26,9 +26,9 @@ public interface IEjercicios {
 	 * como argumentos, y devuelva el número de veces que ese elemento aparece en la
 	 * lista.
 	 */
-	public int numeroOcurrencias(int[] listaNumeros, int n);
+	public int numeroOcurrencias(int[] listaNumeros, int n, int elemento);
 
-	public int numeroOcurrencias(ArrayList<Integer> listaNumeros);
+	public int numeroOcurrencias(ArrayList<Integer> listaNumeros, int elemento);
 
 	/**
 	 * Intercambio de elementos: Escribe una función que tome una lista como
