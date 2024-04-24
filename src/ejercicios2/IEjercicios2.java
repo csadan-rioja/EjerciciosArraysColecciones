@@ -66,7 +66,7 @@ public interface IEjercicios2 {
 	 * twoTwo([2, 2, 4]) → true
 	 * twoTwo([2, 2, 4, 2]) → false
 	 */
-	public int[] twoTwo(int[] nums, int compSign);
+	public Boolean twoTwo(int[] nums, int compSign);
 	
 	
 	
